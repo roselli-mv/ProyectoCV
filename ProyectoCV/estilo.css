@@ -1,0 +1,99 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	font-family: Calibri;
+    box-sizing: border-box
+;}
+
+body {
+    background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0%;
+}
+img{
+	border-radius: 15px 50px;
+	border: 2px solid #babdc0;
+
+}
+
+.full {
+	width: 80%;
+	max-width: 1000px;
+	min-height: 100px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 2fr 4fr; 
+	
+}
+
+.izquierda {
+	float: left;
+	background-color: rgb(141, 182, 185);
+	padding: 20px;
+
+}
+.derecha {
+	float: right;
+	background-color: rgb(234, 231, 245);
+	padding: 20px 40px 20px 40px;
+
+
+}
+
+.Nombre {
+    justify-content: center;
+    align-items: center;
+    margin-top: -36px;
+    padding:30px;
+}
+
+.Contacto{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+	color:black
+
+}
+a {
+	cursor: pointer;
+	color:rgb(17, 27, 36);
+	transition: 0.5s;
+	text-decoration: none;
+  }
+  
+  a:hover, a:active, a:focus {
+	color: rgb(224, 224, 224);
+	outline: none;
+	text-decoration: none;
+  }
+
+.Imagen, .Perfil, .Habilidades, .Idiomas, .Experiencia, .Educacion, .Investigaciones, .Congresos {
+	margin-bottom: 40px;
+}
+.lugar{
+	font-style: italic;
+}
+.profesion{
+	font-family: 'Lato', sans-serif;
+	color:white;
+	font-size: 11.1083px;
+    letter-spacing: 3.11033px;
+    text-transform: uppercase;
+    word-break: break-word;
+    margin-top: 11.9018px;
+    margin-bottom: 0px;;
+}
+
+@media screen and (max-width: 600px) {
+	.izquierda, .derecha, .full {
+	  width: 100%;
+}
+}
+.boton-arriba{
+	float: right;
+	
+
+
+}
